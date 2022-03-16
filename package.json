@@ -1,5 +1,5 @@
 {
-  "name": "av-core-components",
+  "name": "@adivrskic/av-core-components",
   "version": "1.0.0",
   "description": "Core components",
   "author": "Adi Vrskic",
@@ -7,6 +7,9 @@
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/adivrskic"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.7",
     "@rollup/plugin-commonjs": "^21.0.2",
